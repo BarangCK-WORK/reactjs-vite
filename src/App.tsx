@@ -15,17 +15,19 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Vite + React is amazing.</h1>
+      <h1>Vite + React</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count} .
         </button>
-        <p>
+        {/* <p>
           Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
+        </p> */}
       </div>
       <p className="read-the-docs">
-        fast reload
+        <a href='https://www.linkedin.com/in/barang/'>
+        Click Profile
+        </a>
       </p>
     </div>
   )
